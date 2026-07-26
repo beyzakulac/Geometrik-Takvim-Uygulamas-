@@ -1,17 +1,68 @@
-# not_defter
+# 📅 Geometrik Takvim Uygulaması
 
-A new Flutter project.
+Geometrik tasarım öğeleriyle desteklenmiş, sade ve kullanıcı dostu bir **takvim / not defteri** uygulaması. Flutter ile geliştirilmiştir.
 
-## Getting Started
+## 🚀 Özellikler
 
-This project is a starting point for a Flutter application.
+- Takvim üzerinde tarih görüntüleme ve seçim
+- Notlar / etkinlikler için yerel veri depolama
+- Uluslararasılaştırma (tarih/saat biçimlendirme) desteği
+- Android, iOS, Web, Windows, Linux ve macOS platformlarında çalışabilir yapı
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- [Flutter](https://flutter.dev/) – çoklu platform arayüz geliştirme
+- [Dart](https://dart.dev/) – programlama dili
+- [intl](https://pub.dev/packages/intl) – tarih/saat biçimlendirme ve yerelleştirme
+- [shared_preferences](https://pub.dev/packages/shared_preferences) – cihaz üzerinde yerel veri saklama
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons) – iOS tarzı ikonlar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📁 Proje Yapısı
+
+```
+Geometrik-Takvim-Uygulamas-/
+├── android/         # Android platform dosyaları
+├── ios/             # iOS platform dosyaları
+├── lib/             # Uygulamanın ana Dart kaynak kodları
+├── linux/           # Linux masaüstü desteği
+├── macos/           # macOS masaüstü desteği
+├── web/             # Web platform desteği
+├── windows/         # Windows masaüstü desteği
+├── test/            # Test dosyaları
+├── pubspec.yaml     # Proje bağımlılıkları ve yapılandırması
+└── analysis_options.yaml
+```
+
+## ⚙️ Kurulum
+
+1. Depoyu klonlayın:
+```bash
+git clone https://github.com/beyzakulac/Geometrik-Takvim-Uygulamas-.git
+cd Geometrik-Takvim-Uygulamas-
+```
+
+2. Bağımlılıkları yükleyin:
+```bash
+flutter pub get
+```
+
+3. Uygulamayı çalıştırın:
+```bash
+flutter run
+```
+
+> Flutter'ın sisteminizde kurulu olduğundan emin olun. Kurulum için [Flutter resmi dokümantasyonuna](https://docs.flutter.dev/get-started/install) bakabilirsiniz.
+
+## 📱 Desteklenen Platformlar
+
+- ✅ Android
+- ✅ iOS
+- ✅ Web
+- ✅ Windows
+- ✅ macOS
+- ✅ Linux
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı bekliyoruz! Bir sorun bulursanız veya öneriniz varsa lütfen bir issue açın ya da pull request gönderin.
+
